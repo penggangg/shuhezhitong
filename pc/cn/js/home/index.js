@@ -37,12 +37,22 @@ Home.prototype = {
         }
     },
     /**
+     * @function gotoTop 回到顶部
+     */
+    gotoTop: function() {
+        $('#gotoTop').click(function(){
+                $('html ,body').animate({scrollTop: 0}, 300);
+            return false;
+        });
+    },
+    /**
      * @function init 初始化页面里面的所有方法
      */
     init: function() {
         console.log('初始化页面')
         this.bannerSwiper()
         this.solutionHover()
+        this.gotoTop()
     }
 }
 var home = new Home()

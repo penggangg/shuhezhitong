@@ -1,0 +1,99 @@
+/* 头部 */
+.header-cot {
+    height: 418px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.header-cot img {
+    width: 1920px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -960px;
+}
+.header-cot header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background:rgba(14,86,160,0.9);
+    z-index: 99;
+}
+.about-tips {
+    height: 242px;
+    margin-bottom: 120px;
+}
+.about-tips .content {
+    position: absolute;
+    left: 0;
+    top: -80px;
+    width: 100%;
+    height: 320px;
+    background: #0E56A0;
+    border-radius: 10px;
+    color: #fff;
+    padding: 32px 0 0px 0;
+}
+.about-tips .content h3 {
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.about-tips .content p {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.category {
+    background: url('../../img/about/about-bg.png') no-repeat;
+    background-size: cover; 
+    background-position: center; 
+}
+.category .wrap {
+    overflow: hidden;
+}
+.category .item {
+    width: 33.3%;
+    height: 420px;
+    float: left;
+}
+.category .item .details {
+    position: relative;
+    width: 100%;
+    height: 210px;
+    text-align: center;
+}
+.category .item .details img {
+    display: inline-block;
+    width: 95px;
+    height: auto;
+    position: absolute;
+    left: 40px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.category .item .details div {
+    display: block;
+    height: 100%;
+    padding: 30px 0px 20px 180px;
+}
+.category .item .details h3 {
+    font-size: 36px;
+    color: #0E56A0;
+    text-align: left;
+}
+.category .item .details p {
+    font-size: 22px;
+    color: #757575;
+    text-align: left;
+}
+.category .item > img {
+    width: 427px;
+    height: 210px;
+    display: block;
+}
+.aisle h3 {
+    padding: 50px 0;
+}

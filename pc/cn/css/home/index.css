@@ -1,90 +1,4 @@
-/* 头部导航 */
-header {
-    height: 60px;
-    background: #2063A7;
-}
-header .wrap {
-    position: relative;
-    display: flex;
-    width: 1200px;
-    height: 60px;
-    margin: 0 auto;
-}
-header .wrap img {
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    cursor: pointer;
-    width: 102px;
-    height: 22px;
-}
-header .wrap ul {
-    height: 100%;
-    line-height: 60px;
-    margin-left: 200px;
-}
-header .wrap ul li {
-    position: relative;
-    display: inline-block;
-    padding: 0 22px;
-    margin-left: 40px;
-}
-header .wrap ul li a {
-    color: #fff;
-}
-header .wrap ul li.home .line {
-    position: absolute;
-    height: 2px;
-    width: 100%;
-    display: inline-block;
-    bottom: 0px;
-    left: 0;
-    background: #fff;
-}
-header .wrap ul li.product:hover .productType{
-    display: block;
-}
-header .wrap ul li.product .productType{
-    display: none;
-    position: absolute;
-    width: 100%;
-    bottom: -100px;
-    left: 0;
-    background: #fff;
-    box-shadow: 1px 1px 3px #cccccc;
-    padding-top: 15px;
-    z-index: 999;
-}
-header .wrap ul li.product .productType.solution {
-    bottom: -190px;
-}
-header .wrap ul li.product .productType::after {
-    width:0;
-    height:0;
-    border-width:0 10px 10px;
-    border-style:solid;
-    border-color:transparent transparent #FFF;/*透明 透明  灰*/
-    position: absolute;;
-    display: inline-block;
-    content: '';
-    top: -10px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-header .wrap ul li.product .productType span {
-    display: block;
-    width: 100%;
-    text-align: center;
-    cursor: pointer;
-    height: 45px;
-    line-height: 45px;
-}
-header .wrap ul li.product .productType span:hover {
-    background: #ECECEC;
-    color: #4B7EB4;
-}
+
 /* banner轮播图 */
 main .banner-swiper {
     width: 100%;
@@ -93,8 +7,25 @@ main .banner-swiper {
     position: relative;
 }
 main .banner-swiper .banner {
-    width: 1920px;
+    /* width: 1920px; */
+    /* height: 100%; */
+    /* width: 1920px;
     height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -960px; */
+    height: 100%;
+}
+main .banner-swiper .imgCot1 {
+    background: url('../../img/home/home-banner.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+main .banner-swiper .imgCot2 {
+    background: url('../../img/home/aa.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 main .banner-swiper .swiper-slide {
     position: relative;
@@ -107,14 +38,21 @@ main .banner-swiper .tips {
 }
 /* 产品中心 */
 .common-model .wrap {
-    width: 1200px;
+    width: 1280px;
     height: 100%;
     margin: 0 auto;
     position: relative;
     padding: 60px 0 60px 0;
 }
 .common-title {
+    position: relative;
     margin-bottom: 40px;
+}
+.common-title .more-btn {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    cursor: pointer;
 }
 .common-title>p {
 	text-align: center;
@@ -138,16 +76,16 @@ main .banner-swiper .tips {
 }
 .common-model .wrap .product-center li {
     float: left;
-    width: 380px;
-    margin-right: 30px;
-    box-shadow: 0 0 20px #C4E2FA;
+    width: 400px;
+    margin-right: 40px;
+    box-shadow:0px 3px 15px 0px rgba(0, 0, 0, 0.08);
     cursor: pointer;
 }
 .common-model .wrap .product-center li .product-img {
     overflow: hidden;
     display: block;
     width: 100%;
-    height: 280px;
+    height: 289px;
 }
 .common-model .wrap .product-center li:hover {
     background: #0E56A0;
@@ -187,6 +125,7 @@ main .banner-swiper .tips {
     text-align: center;
     font-size: 16px;
     padding: 0 15px;
+    height: 120px;
 }
 .common-model .wrap .product-center .product-introduce a {
     display: block;
@@ -206,8 +145,8 @@ main .banner-swiper .tips {
 }
 .solution li {
     float: left;
-    width: 292px;
-    margin-right: 10px;
+    width: 310px;
+    margin-right: 12px;
     padding: 50px 30px 30px 30px;
     border-radius: 5px;
     background: #fff;
@@ -215,6 +154,7 @@ main .banner-swiper .tips {
 }
 .solution li:hover {
     background: #0e56a0;
+    color: #fff;
 }
 .solution li:hover .line {
     background: #fff;
