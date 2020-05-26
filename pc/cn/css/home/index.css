@@ -48,11 +48,40 @@ main .banner-swiper .tips {
     position: relative;
     margin-bottom: 40px;
 }
-.common-title .more-btn {
+.more-btn:hover {
+    color: #fff;
+    background: #0E56A0;
+}
+.about a {
+    position: relative;
+}
+.about .more-btn {
+    left: 0;
+}
+.more-btn {
+    display: inline-block;
+    width: 170px;
+    height: 40px;
+    line-height: 38px;
     position: absolute;
     right: 0;
     top: 10px;
     cursor: pointer;
+    color: #1C2326;
+    border: 1px solid #1C2326;
+    font-size: 20px;
+    text-align: center;
+    border-radius:2px;
+}
+.more-btn .iconfont {
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 5px;
+    vertical-align: middle;
+    transition: transform .3s ease;
+}
+.more-btn:hover .iconfont {
+   transform: translateX(8px);
 }
 .common-title>p {
 	text-align: center;
@@ -101,6 +130,10 @@ main .banner-swiper .tips {
 .common-model .wrap .product-center li:hover p {
     color: #fff;
 }
+.common-model .wrap .product-center li:hover .more-btn {
+    background: #fff;
+    color: #1C2326;
+}
 .common-model .wrap .product-center li:hover .product-img img{
     -webkit-transform:scale(1.1);
     -moz-transform:scale(1.1);
@@ -121,6 +154,20 @@ main .banner-swiper .tips {
 .common-model .wrap .product-center li:last-child {
     float: right;
     margin-right: 0;
+}
+.product-introduce a {
+    position: relative;
+    display: inline-block;
+    width: 161px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+.product-introduce a .more-btn {
+    width: 100%;
+    top: 0;
+    background: #0E56A0;
+    color: #fff;
 }
 .common-model .wrap .product-center .product-introduce {
     padding: 24px 0;
@@ -148,7 +195,6 @@ main .banner-swiper .tips {
 .common-model .wrap .product-center .product-introduce a {
     display: block;
     text-align: center;
-    margin-top: 15px;
 }
 .common-model .wrap .product-center .product-introduce img {
     width: 81px;
@@ -173,6 +219,21 @@ main .banner-swiper .tips {
 }
 .solution li:nth-child(1) {
     background: url('../../img/home/solution-bg-1.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.solution li:nth-child(2) {
+    background: url('../../img/home/solution-bg-2.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.solution li:nth-child(3) {
+    background: url('../../img/home/solution-bg-3.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.solution li:nth-child(4) {
+    background: url('../../img/home/solution-bg-4.png') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -276,5 +337,5 @@ main .banner-swiper .tips {
     font-size: 16px;
     color: #515151;
     line-height: 32px;
-    margin: 22px 0;
+    margin: 12px 0;
 }

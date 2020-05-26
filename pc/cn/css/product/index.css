@@ -45,7 +45,7 @@
 }
 /* 产品概述 */
 section .wrap h3 {
-    font-size: 42px;
+    font-size: 30px;
     text-align: center;
     padding: 50px 0;
 }
@@ -55,7 +55,7 @@ section .wrap.product p{
     text-align: center;
 }
 section .wrap.product img {
-    width: 1280px;
+    width: 1200px;
     height: auto;
 }
 /* 整体介绍 */
@@ -63,7 +63,7 @@ section .wrap.product img {
     overflow: hidden;
 }
 .introduce .item{
-    width: 620px;
+    width: 580px;
     height: 420px;
     float: left;
 }
@@ -72,7 +72,7 @@ section .wrap.product img {
 }
 .introduce .item img {
     display: block;
-    width: 620px;
+    width: 580px;
     height: 320px;
 }
 .introduce .item .title {

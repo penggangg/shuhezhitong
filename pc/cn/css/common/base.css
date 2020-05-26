@@ -141,7 +141,7 @@ header .wrap ul li.product .productType span.active {
 }
 .fooetr-nav .footer-links{
     display:block;
-    color:#7a7776;
+    color:#fff;
     font-size:16px;
     line-height:16px;
     margin-bottom:20px;
@@ -156,7 +156,7 @@ header .wrap ul li.product .productType span.active {
 .keep-on-record{
     width:100%;
     line-height:72px;
-    color:#7a7776;
+    color:#fff;
     font-size:14px;
     text-indent: 200px;
 }
