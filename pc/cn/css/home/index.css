@@ -2,7 +2,7 @@
 /* banner轮播图 */
 main .banner-swiper {
     width: 100%;
-    height: 600px;
+    height: 500px;
     overflow: hidden;
     position: relative;
 }
@@ -42,7 +42,7 @@ main .banner-swiper .tips {
     height: 100%;
     margin: 0 auto;
     position: relative;
-    padding: 60px 0 60px 0;
+    padding: 30px 0 30px 0;
 }
 .common-title {
     position: relative;
@@ -256,7 +256,7 @@ main .banner-swiper .tips {
     margin: 30px 0;
     letter-spacing: 10px;
 }
-.solution li .solutionImg {
+.solution li:nth-child(1) .solutionImg {
     display: block;
     margin: 0 auto;
     width: 75px;
@@ -264,8 +264,44 @@ main .banner-swiper .tips {
     background: url('../../img/home/solution-1-1.png') no-repeat;
     background-size: 75px 75px;
 }
-.solution li .solutionImg.hover {
+.solution li:nth-child(1) .solutionImg.hover {
     background: url('../../img/home/solution-1-2.png') no-repeat;
+    background-size: 75px 75px;
+}
+.solution li:nth-child(2) .solutionImg {
+    display: block;
+    margin: 0 auto;
+    width: 75px;
+    height: 75px;
+    background: url('../../img/home/solution-2-1.png') no-repeat;
+    background-size: 75px 75px;
+}
+.solution li:nth-child(2) .solutionImg.hover {
+    background: url('../../img/home/solution-2-2.png') no-repeat;
+    background-size: 75px 75px;
+}
+.solution li:nth-child(3) .solutionImg {
+    display: block;
+    margin: 0 auto;
+    width: 75px;
+    height: 75px;
+    background: url('../../img/home/solution-3-1.png') no-repeat;
+    background-size: 75px 75px;
+}
+.solution li:nth-child(3) .solutionImg.hover {
+    background: url('../../img/home/solution-3-2.png') no-repeat;
+    background-size: 75px 75px;
+}
+.solution li:nth-child(4) .solutionImg {
+    display: block;
+    margin: 0 auto;
+    width: 75px;
+    height: 75px;
+    background: url('../../img/home/solution-4-1.png') no-repeat;
+    background-size: 75px 75px;
+}
+.solution li:nth-child(4) .solutionImg.hover {
+    background: url('../../img/home/solution-4-2.png') no-repeat;
     background-size: 75px 75px;
 }
 .solution li .line {
