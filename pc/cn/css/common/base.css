@@ -215,12 +215,12 @@ header .wrap ul li.product .productType span.active {
     top: 300px;
     z-index: 9999;
     background: #0E56A0;
-    padding: 0 14px;
+    padding: 0 6px;
     border-radius:10px;
 }
 .toTop li {
     border-bottom: 1px solid #fff;
-    padding: 14px 0px;
+    padding: 6px 0px;
 }
 .toTop li:last-child {
     border: none;
@@ -229,6 +229,8 @@ header .wrap ul li.product .productType span.active {
     display: block;
     margin: 0 auto;
     cursor: pointer;
+    width: 20px;
+    height: 20px;
 }
 .toTop li span {
     display: block;
