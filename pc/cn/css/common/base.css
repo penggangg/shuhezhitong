@@ -1,13 +1,17 @@
 /* 头部导航 */
 header {
+    position: absolute;
+    left: 0;
+    top: 0;
     height: 60px;
     background: #2063A7;
     width: 100%;
+    z-index: 888;
 }
 header .wrap {
     position: relative;
     display: flex;
-    width: 1280px;
+    width: 1200px;
     height: 60px;
     margin: 0 auto;
 }
@@ -24,7 +28,7 @@ header .wrap img {
 header .wrap ul {
     height: 100%;
     line-height: 60px;
-    margin-left: 200px;
+    margin-left: 372px;
 }
 header .wrap ul li {
     position: relative;
@@ -54,7 +58,8 @@ header .wrap ul li.product .productType{
     bottom: -100px;
     left: 0;
     background: #fff;
-    box-shadow: 1px 1px 3px #cccccc;
+    box-shadow:0px 4px 7px 0px rgba(135,135,135,0.6);
+    border-radius:0px 0px 3px 3px;
     padding-top: 15px;
     z-index: 999;
 }
@@ -66,7 +71,7 @@ header .wrap ul li.product .productType::after {
     height:0;
     border-width:0 10px 10px;
     border-style:solid;
-    border-color:transparent transparent #FFF;/*透明 透明  灰*/
+    border-color:transparent transparent #FFF;
     position: absolute;;
     display: inline-block;
     content: '';
@@ -99,7 +104,7 @@ header .wrap ul li.product .productType span.active {
     margin-left: -960px;
 }
 .wrap {
-    width: 1280px;
+    width: 1200px;
     height: 100%;
     margin: 0 auto;
     position: relative;
