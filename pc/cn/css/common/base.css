@@ -176,12 +176,21 @@ header .wrap ul li.product .productType span.active {
     color: #434343;
 }
 .aisle .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
-    justify-content: space-between;
+    -ms-flex-pack: distribute;
+    justify-content: space-around
 }
 .aisle li {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 .aisle li img {
@@ -221,6 +230,7 @@ header .wrap ul li.product .productType span.active {
 .toTop li {
     border-bottom: 1px solid #fff;
     padding: 6px 0px;
+    cursor: pointer;
 }
 .toTop li:last-child {
     border: none;
@@ -231,6 +241,20 @@ header .wrap ul li.product .productType span.active {
     cursor: pointer;
     width: 20px;
     height: 20px;
+}
+.toTop .qrcode {
+    position: relative;
+}
+.toTop .qrcode:hover .bg-qrcode {
+    display: block;
+}
+.toTop .qrcode .bg-qrcode {
+    display: none;
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: -180px;
+    top: 0;
 }
 .toTop li span {
     display: block;
