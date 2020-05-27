@@ -36,6 +36,20 @@ main .banner-swiper .tips {
     top: 50%;
     transform: translate(-50%, -50%);
 }
+.swiper-pagination-bullet {
+    width: 50px;
+    height: 10px;
+    text-align: center;
+    font-size: 12px;
+    color:#000;
+    opacity: 1;
+    background: #fff;
+    border-radius: 10px !important;
+}
+.swiper-pagination-bullet-active {
+    color:#fff;
+    background: #007aff;
+}
 /* 产品中心 */
 .common-model .wrap {
     width: 1200px;
@@ -217,12 +231,12 @@ main .banner-swiper .tips {
     background: #fff;
     cursor: pointer;
 }
-.solution li:nth-child(1) {
+.solution li:nth-child(2) {
     background: url('../../img/home/solution-bg-1.png') no-repeat;
     background-size: cover;
     background-position: center;
 }
-.solution li:nth-child(2) {
+.solution li:nth-child(4) {
     background: url('../../img/home/solution-bg-2.png') no-repeat;
     background-size: cover;
     background-position: center;
@@ -232,7 +246,7 @@ main .banner-swiper .tips {
     background-size: cover;
     background-position: center;
 }
-.solution li:nth-child(4) {
+.solution li:nth-child(1) {
     background: url('../../img/home/solution-bg-4.png') no-repeat;
     background-size: cover;
     background-position: center;

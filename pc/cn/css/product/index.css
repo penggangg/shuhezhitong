@@ -1,6 +1,6 @@
 /* 头部 */
 .header-cot {
-    height: 709px;
+    height: 500px;
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -21,24 +21,24 @@
     z-index: 99;
 }
 .header-cot .wrap h3 {
-    font-size: 64px;
+    font-size: 32px;
     font-weight: bold;
     color: #fff;
-    margin-top: 280px;
+    margin-top: 140px;
 }
 .header-cot .wrap p {
-    font-size: 32px;
+    font-size: 22px;
     color: #fff;
-    margin: 30px 0 50px 0;
+    margin: 20px 0 30px 0;
 } 
 .header-cot .wrap .button {
     display: block;
     color: #fff;
-    font-size: 32px;
-    width: 247px;
-    height: 64px;
+    font-size: 22px;
+    width: 200px;
+    height: 44px;
     text-align: center;
-    line-height: 64px;
+    line-height: 44px;
     border-radius: 30px;
     border: 1px solid #fff;
     cursor: pointer;
@@ -47,7 +47,7 @@
 section .wrap h3 {
     font-size: 30px;
     text-align: center;
-    padding: 50px 0;
+    padding: 30px 0;
 }
 section .wrap.product p{
     font-size: 22px;
@@ -101,7 +101,7 @@ section .wrap.product img {
    background: url("../../img/product/product-features.png") no-repeat;
    background-size: cover;
    background-position: center;
-   margin-top: 50px;
+   margin-top: 30px;
 }
 .features h3 {
     color: #fff;;

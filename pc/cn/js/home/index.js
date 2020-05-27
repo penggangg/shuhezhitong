@@ -9,11 +9,18 @@ Home.prototype = {
         console.log('初始化首页轮播')
         var banner_swiper = new Swiper('.banner-swiper', {
             speed:500,
-            autoplay: 3000,
+            autoplay: true,
             loop: true,
-            autoplayDisableOnInteraction : false,
-            resistanceRatio : 0,
-            pagination : '.swiper-pagination'
+            // autoplayDisableOnInteraction : false,
+            // resistanceRatio : 0,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+                renderBullet: function (index, className) {
+                    console.log(index, className)
+                    return '<span class="' + className + '"></span>';
+                },
+            },
         });
         if($('.banner-swiper .swiper-slide').length < 2){
             $('.swiper-pagination').hide();
