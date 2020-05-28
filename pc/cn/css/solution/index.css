@@ -1,0 +1,65 @@
+/* 头部 */
+.header-cot {
+    height: 500px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.header-cot img {
+    width: 1920px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -960px;
+}
+.header-cot header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background:rgba(14,86,160,0.9);
+    z-index: 99;
+}
+.wrap h3 {
+    font-size: 30px;
+    text-align: center;
+    padding: 30px 0;
+    color: #0E56A0;
+}
+/* 方案特点 */
+.cooperation {
+    background: #E8F4FC;
+    margin-top: 40px;
+    padding-bottom: 60px;
+}
+.cooperation li {
+    float: left;
+    width: 370px;
+    /* height: 360px; */
+    margin-right: 45px;
+    text-align: center;
+    padding: 30px;
+    background: #fff;
+}
+.cooperation li:last-child {
+    margin-right: 0;
+}
+.cooperation li .line {
+    width: 52px;
+    height: 4px;
+    background: #0E56A0;
+    border-radius:2px;
+    margin: 0 auto;
+    margin-bottom: 26px;
+}
+.cooperation li h4 {
+    color: #434343;
+    font-size: 22px;
+    margin: 44px 0 20px 0px;
+}
+.cooperation li p {
+    color: #757575;
+    font-size: 16px;
+    height: 120px;
+    line-height: 32px;
+}
