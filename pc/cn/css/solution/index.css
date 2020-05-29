@@ -30,6 +30,22 @@
 .header-cot .category {
     position: absolute;
     bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 825px;
+}
+.header-cot .category p {
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+.header-cot .category p:first-child {
+    font-weight: normal;
+}
+
+.header-cot .category ul {
+    margin-top: 110px;
 }
 .header-cot .category li {
     float: left;
@@ -40,6 +56,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.header-cot .category li:last-child {
+    margin-right: 0;
 }
 .header-cot .category li.active {
     background: #fff;
