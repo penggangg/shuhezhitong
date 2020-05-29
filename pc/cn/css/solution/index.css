@@ -5,7 +5,7 @@
     position: relative;
     overflow: hidden;
 }
-.header-cot img {
+.header-cot >img {
     width: 1920px;
     height: 100%;
     position: absolute;
@@ -25,6 +25,45 @@
     text-align: center;
     padding: 30px 0;
     color: #0E56A0;
+}
+/* 头部中间文案以及tab */
+.header-cot .category {
+    position: absolute;
+    bottom: 0;
+}
+.header-cot .category li {
+    float: left;
+    margin-right: 75px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header-cot .category li.active {
+    background: #fff;
+    border-radius:10px 10px 0px 0px;
+}
+.header-cot .category li.active span {
+    color: #130F16;
+}
+.header-cot .category li img {
+}
+.header-cot .category li span {
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+    letter-spacing: 5px;
+}
+
+/* 方案背景 */
+.fananBg .content {
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 38px;
 }
 /* 方案特点 */
 .cooperation {
@@ -62,4 +101,36 @@
     font-size: 16px;
     height: 120px;
     line-height: 32px;
+}
+/* 方案构成 */
+.structure {
+    height: 875px;
+    width: 100%;
+    background: url('../../img/solution/structure-bg.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.structure.city {
+    height: 736px;
+}
+.structure.school {
+    height: 995px;
+}
+.structure.site {
+    height: 789px;
+    background: url('../../img/solution/structure-3000-bg.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.structure .wrap {
+    text-align: center;
+}
+.structure img {
+    margin-top: 93px;
+}
+.structure.school img {
+    margin-top: 53px;
+}
+.structure.city img  {
+    margin-top: 46px;
 }
