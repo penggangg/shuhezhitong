@@ -2,25 +2,227 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <meta name="description" content="">
-    <meta name="Keywords" content="">
+    <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.2/??flexible_css.js,flexible.js"></script>
+    <title>数合智通</title>
+    <link rel="stylesheet" href="css/common/common.css">
+    <link rel="stylesheet" href="css/common/swiper-3.4.2.min.css">
+    <link rel="stylesheet" href="css/common/base.css">
+    <link rel="stylesheet" href="css/home/index.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1844292_iniytvur75.css">
 </head>
 <body>
-    <!-- 公共头部 -->
-    <div class="header"></div>
-    <!-- 首页主体 -->
-    <div class="main"></div>
-    <!-- 公共底部 -->
-    <div class="footer"></div>
+    <div id="header">
+        <a href="/" class="logo">
+            <img src="img/common/home-logo.png" alt="" srcset="">
+        </a>
+        <div class="navigation-button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="navigation-wrapper">
+            <ul id="navlist" class="navigation-list">
+                <li class="navigation-item">
+                    <a href="/">首页</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="javascript:void(0)">产品中心</a>
+                    <i class="iconfont "></i>
+                    <ul class="navigation-list">
+                        <li class="navigation-item">
+                            <a href="/product/200.html">游小蜜</a>
+                        </li>
+                        <li class="navigation-item">
+                            <a href="/product/300.html">劳力信</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navigation-item">
+                    <a href="javascript:void(0)">解决方案</a>
+                    <i class="iconfont "></i>
+                    <ul class="navigation-list">
+                        <li class="navigation-item">
+                            <a href="/solution/2000.html">智慧旅游</a>
+                        </li>
+                        <li class="navigation-item">
+                            <a href="/solution/3000.html">智慧工地</a>
+                        </li>
+                        <li class="navigation-item">
+                            <a href="/solution/4000.html">智慧城市</a>
+                        </li>
+                        <li class="navigation-item">
+                            <a href="/solution/5000.html">智慧校园</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navigation-item">
+                    <a href="/about/">关于我们</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="/join/">商务合作</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="swiper-container banner-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="imgCot1 banner"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="imgCot1 banner"></div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <!-- 产品中心 -->
+    <section>
+        <div class="title">
+            <span class="line"></span>
+            <div>
+                <span>产品中心</span>
+                <span>P R O D U C T</span>
+            </div>
+            <span class="line"></span>
+        </div>
+        <div class="swiper-container product-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img/home/product-1.png" alt="" srcset="">
+                    <span class="product-1">游小蜜</span>
+                    <span class="product-2">景区/园区数字化产品</span>
+                    <p>通过景区/园区POI数字化，使用地图、AI、大数据、推荐等技术，为游客提供“一张图”的智能导览、语音讲解、周边推荐、智能问答等服务，提升游客“吃、住、行、游、购、娱”的便捷性和体验。</p>
+                    <div class="more-btn">
+                        <span>查看详情</span>
+                        <span class="iconfont iconjiantou"></span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/home/product-2.png" alt="" srcset="">
+                    <span class="product-1">劳力信</span>
+                    <span class="product-2">施工现场民工实名制管理产品</span>
+                    <p>通过AI图像识别、身份证联网实名认证、定位 检测、大数据等技术，实现农名工实名制便捷 化、验工和工资发放精细化、项目管理可视化。 响应政府实名制政策要求同时，提升项目管理的 便捷性，减少成本，降低风险。</p>
+                    <div class="more-btn">
+                        <span>查看详情</span>
+                        <span class="iconfont iconjiantou"></span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/home/product-2.png" alt="" srcset="">
+                    <span class="product-1">定制开发</span>
+                    <span class="product-2">量身定制的软件系统、APP、小程序</span>
+                    <p>专业的产品技术团队，基于客户需求，结合行业经验， 依托团队在互联网、大数据、AI方面的技术优势， 为客户提供优质的产品技术服务。</p>
+                    <div class="more-btn">
+                        <span>查看详情</span>
+                        <span class="iconfont iconjiantou"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="product-swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- 解决方案 -->
+    <section>
+        <div class="title">
+            <span class="line"></span>
+            <div>
+                <span>解决方案</span>
+                <span>S O L U T I O N</span>
+            </div>
+            <span class="line"></span>
+        </div>
+        <div class="swiper-container solution-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img/home/Solution-4-1.png" alt="" srcset="">
+                    <span class="solution-1">智慧旅游</span>
+                    <span class="line"></span>
+                    <p>依托GIS、物联网、大数据、人工智能、VR/AR等技术，实现旅游路线个性化推荐、地图智能导览、语音讲解等，提升游客在“吃、住、行、游、购、娱”过程中的自主性、互动性，提升景区管理服务水平，助力景区营销管理。</p>
+                    <div class="more-btn">
+                        <span class="iconfont iconjiantou"></span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/home/solution-1-1.png" alt="" srcset="">
+                    <span class="solution-1">智慧工地</span>
+                    <span class="line"></span>
+                    <p>围绕工程施工现场的人员管理、设备管理、物料管理、进度管理、质量管理、安全管理、安全教育、运维管理等方面，综合“人、机、料、法、环”等要素，实现对施工现场一体化、可视化、智慧化管理。</p>
+                    <div class="more-btn">
+                        <span class="iconfont iconjiantou"></span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/home/Solution-3-1.png" alt="" srcset="">
+                    <span class="solution-1">智慧城市</span>
+                    <span class="line"></span>
+                    <p>利用物联网、云计算、大数据、人工智能、可视化等技术，构建城市大数据平台和智慧应用，助力提升城市治理能力和效率，实现便民惠民。</p>
+                    <div class="more-btn">
+                        <span class="iconfont iconjiantou"></span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/home/Solution-2-1.png" alt="" srcset="">
+                    <span class="solution-1">智慧校园</span>
+                    <span class="line"></span>
+                    <p>综合物联网、互联网、大数据和人工智能技术，强调对教学、科研、校园生活和校园管理的数字化，实现科学决策和智慧管理，结合智能一卡通、电子班牌、电子阅览室等产品，促进教育的现代化。</p>
+                    <div class="more-btn">
+                        <span class="iconfont iconjiantou"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="solution-swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- 关于我们 -->
+    <section>
+        <div class="title">
+            <span class="line"></span>
+            <div>
+                <span>关于我们</span>
+                <span>A B O U T  U S</span>
+            </div>
+            <span class="line"></span>
+        </div>
+        <div class="aboutUs">
+            <img src="img/home/about-us.png" alt="" srcset="">
+            <p>武汉数合智通致力于大数据、人工智能技术研究以及在行业的落地应用，是一家集咨询、开发、集成、服务为一体的软件技术公司。公司一直秉承“成就客户、诚信负责、创新合作”的文化理念，注重技术创新和行业落地。公司业务领域包括：行业/政府数字化系统建设咨询、规划、开发、集成以及定制化的软件系统、APP、小程序开发。</p>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer>
+        <img src="img/common/home-logo.png" alt="" srcset="">
+        <div class="line"></div>
+        <span>©2020 湖北数合智通科技有限公司.ALL Rights Reserved </span>
+        <span>PC备案：鄂ICP备16016892号</span>
+    </footer>
+    <div class="footer-empty"></div>
+    <div class="linkAll">
+        <div>
+            <a href="http://">
+                <img src="img/common/phone.png" alt="" srcset="">
+                <span>电话咨询</span>
+            </a>
+        </div>
+        <div>
+            <a href="http://">
+                <img src="img/common/email.png" alt="" srcset="">
+                <span>邮箱咨询</span>
+            </a>
+        </div>
+        <div>
+            <a href="http://">
+                <img src="img/common/wechat.png" alt="" srcset="">
+                <span>关注公众号</span>
+            </a>
+        </div>
+    </div>
 </body>
-<script type="text/javascript" src="js/jquery-3.2.1.min.js" ></script>
-<script>
-    $(function() {
-      $('.header').load('html/header.html');
-      $('.footer').load('html/footer.html');
-    })
-</script>
+<script src="js/common/jquery-3.2.1.min.js"></script>
+<script src="js/common/swiper-3.4.2.min.js"></script>
+<script src="js/common/base.js"></script>
+<script src="js/home/index.js"></script>
 </html>
