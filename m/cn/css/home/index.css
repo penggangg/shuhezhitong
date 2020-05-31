@@ -110,14 +110,20 @@
 .solution-swiper {
     width: 100%;
     background: #E8F4FC;
+    padding-top: .266525rem;
 }
 .solution-swiper .swiper-slide {
     width: 4.557569rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: .666311rem .133262rem .399787rem;
     background: #fff;
+    padding: .666311rem .133262rem .399787rem;
+}
+.solution-swiper .swiper-slide a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .solution-swiper .swiper-slide img {
     max-width: .746269rem;
