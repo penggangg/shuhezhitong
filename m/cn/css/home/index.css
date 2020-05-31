@@ -63,7 +63,7 @@
     width: 7.356077rem;
     /* height: 8.26226rem; */
 }
-.product-swiper .swiper-slide {
+.product-swiper .swiper-slide a {
     display: flex;
     flex-direction: column;
     align-items: center;
