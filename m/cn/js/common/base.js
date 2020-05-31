@@ -48,13 +48,13 @@ Base.prototype = {
 
                 if( list.hasClass('active') ) {
                     list.css('display', 'none').animate({ 'height' : 0 }).removeClass('active');
-                    // list.siblings('i.el-icon-arrow-down').removeClass('rotate');
+                    list.siblings('i.icondown').removeClass('rotate');
                 } else {
                     setTimeout(() => {
                         $(this).siblings('.navigation-item').find('.navigation-list').css('display', 'none').animate({ 'height' : 0 }).removeClass('active');
                         list.css('display', 'block').addClass('active').animate({ 'height' : height + 'px' });
+                        list.siblings('i.icondown').addClass('rotate');
                     }, 300);
-                    // list.siblings('i.el-icon-arrow-down').addClass('rotate');
                 };
 
             };

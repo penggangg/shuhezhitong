@@ -22,8 +22,8 @@ header .wrap img {
     bottom: 0;
     margin: auto;
     cursor: pointer;
-    width: 102px;
-    height: 22px;
+    width: 160px;
+    height: 48px;
 }
 header .wrap ul {
     height: 100%;
