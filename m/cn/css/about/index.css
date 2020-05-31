@@ -1,108 +1,68 @@
-/* 头部 */
-.header-cot {
-    height: 500px;
-    width: 100%;
+.bannerImg {
     position: relative;
-    overflow: hidden;
 }
-.header-cot img {
-    width: 1920px;
-    height: 100%;
+.bannerImg .tips {
+    width: 9.328358rem;
+    height: 3.464819rem;
+    background:rgba(14,86,160,1);
+    border-radius:10px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 .746269rem;
     position: absolute;
-    top: 0;
     left: 50%;
-    margin-left: -960px;
+    top: 85%;
+    transform: translateX(-50%);
+    z-index: 8;
 }
-.header-cot header {
-    position: absolute;
-    left: 0;
-    top: 0;
-    background:rgba(14,86,160,0.9);
-    z-index: 99;
+.bannerImg .tips h3 {
+    font-size: .479744rem;
+    margin-bottom: .399787rem;
+
 }
-.about-tips {
-    height: 132px;
-    margin-bottom: 50px;
-}
-.about-tips .content {
-    position: absolute;
-    left: 0;
-    top: -80px;
-    width: 100%;
-    height: 200px;
-    background: #0E56A0;
-    border-radius: 10px;
-    color: #fff;
-    padding: 24px 0 0px 0;
-}
-.about-tips .content h3 {
-    font-size: 30px;
+.bannerImg .tips p {
+    font-size: .266525rem;
     text-align: center;
-    margin-bottom: 16px;
 }
-.about-tips .content p {
-    font-size: 16px;
-    text-align: center;
-    margin-bottom: 10px;
+.empty {
+    height: 2.765245rem;
 }
 .category {
     background: url('../../img/about/about-bg.png') no-repeat;
-    background-size: cover; 
-    background-position: center; 
-}
-.category .wrap {
-    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+
 }
 .category .item {
-    width: 33.3%;
-    height: 400px;
-    float: left;
-}
-.category .item .details {
-    position: relative;
     width: 100%;
-    height: 200px;
-    text-align: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    height: 2.798507rem;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
+}
+.category .details {
+    width: 50%;
+    height: 100%;
+    display: flex;
     align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
 }
-.category .item .details img {
-    display: inline-block;
-    width: 75px;
-    height: auto;
-    margin-right: 30px;
-    /* position: absolute;
-    left: 40px;
-    top: 0;
-    bottom: 0;
-    margin: auto; */
+.category .details img {
+    width: 1.19936rem;
+    height: 1.19936rem;
+    margin-right: .266525rem;
 }
-.category .item .details div {
-   
-}
-.category .item .details h3 {
-    font-size: 30px;
+.category .details h3 {
+    font-size: .346482rem;
     color: #0E56A0;
-    text-align: left;
-    margin-bottom: 5px;
+    font-weight: bold;
 }
-.category .item .details p {
-    font-size: 18px;
+.category .details p {
     color: #757575;
-    text-align: left;
+    font-size: .266525rem;
 }
-.category .item > img {
-    width: 100%;
-    height: 200px;
-    display: block;
-}
-.aisle h3 {
-    padding: 50px 0;
+.category .item >img {
+    width: 50%;
+    height: 100%;
 }
