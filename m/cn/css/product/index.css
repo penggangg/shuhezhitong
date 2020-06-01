@@ -80,3 +80,63 @@
     margin-bottom: .266525rem;
     line-height: .426439rem;
 }
+.fananBg .content {
+    margin: auto;
+    width: 7.462687rem;
+    color: #757575;
+    font-size: .266525rem;
+    line-height: .426439rem;
+    text-align: center;
+}
+.cooperation {
+    background: #E8F4FC;
+    margin-top: .533049rem;
+}
+.cooperation .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: .453092rem .533049rem;
+}
+.cooperation .imgCot {
+    width: 1.41258rem;
+    height: 1.359275rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cooperation .imgCot img {
+    display: block;
+    max-width: .959488rem;
+    max-width: .959488rem;
+}
+.cooperation h4 {
+    font-size: .266525rem;
+    color: #434343;
+    margin: .319829rem 0;
+}
+.cooperation .line {
+    width: .692964rem;
+    height: 2px;
+    background: #0D559F;
+    border-radius:2px;
+    margin-bottom: .266525rem;
+}
+.cooperation p {
+    color: #757575;
+    font-size: .266525rem;
+    line-height: .426439rem;
+    text-align: center;
+}
+.cooperation .item:first-child {
+    margin-right: .399787rem;
+}
+.cooperation .item {
+    width: 4.264392rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    padding: .506397rem .266525rem;
+    margin-bottom: .399787rem;
+}

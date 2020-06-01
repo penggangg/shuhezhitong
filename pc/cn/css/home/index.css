@@ -23,7 +23,12 @@ main .banner-swiper .imgCot1 {
     background-position: center;
 }
 main .banner-swiper .imgCot2 {
-    background: url('../../img/home/aa.jpeg') no-repeat;
+    background: url('../../img/home/home-banner2.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+main .banner-swiper .imgCot3 {
+    background: url('../../img/home/home-banner3.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
