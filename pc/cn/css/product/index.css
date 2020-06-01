@@ -5,7 +5,7 @@
     position: relative;
     overflow: hidden;
 }
-.header-cot img {
+.header-cot >img {
     display: none;
     width: 1920px;
     height: 100%;
