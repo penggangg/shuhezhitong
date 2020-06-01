@@ -143,6 +143,13 @@
     margin-bottom: .399787rem;
     padding-left: 1.51919rem;
     padding-top: .199893rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.search .content-list li {
+    display: flex;
+    width: 100%;
 }
 .search .content-list:after{
     position: absolute;

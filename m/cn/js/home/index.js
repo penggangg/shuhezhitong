@@ -33,8 +33,8 @@ Home.prototype = {
         console.log('初始化首页轮播')
         var banner_swiper = new Swiper('.product-swiper', {
             speed:500,
-            autoplay: true,
-            loop: true,
+            autoplay: false,
+            loop: false,
             // autoplayDisableOnInteraction : false,
             // resistanceRatio : 0,
             pagination: {
