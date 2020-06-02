@@ -60,7 +60,7 @@ Home.prototype = {
             // autoplay: true,
             // loop: true,
             slidesPerView: 'auto',
-            // spaceBetween: 10,
+            spaceBetween: 10,
             // autoplayDisableOnInteraction : false,
             // resistanceRatio : 0,
             pagination: {
