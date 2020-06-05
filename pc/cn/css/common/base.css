@@ -288,7 +288,8 @@ header .wrap ul li.product .productType span.active {
 .mask .form {
     width:1135px;
     height:520px;
-    background:rgba(232,244,252,0.75);
+    background:rgba(232,244,252,1);
+    background: url('../../img/common/formBg.jpg') no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
