@@ -274,7 +274,7 @@ header .wrap ul li.product .productType span.active {
     text-align: center;
 }
 /* **************************** 返回顶部 end ****************************** */
-/* **************************** 在线咨询 start ****************************** */
+/* **************************** 商务咨询 start ****************************** */
 .mask {
     display: none;
     position: fixed;
@@ -360,5 +360,5 @@ header .wrap ul li.product .productType span.active {
     line-height: 48px;
     cursor: pointer;
 }
-/* **************************** 在线咨询 end ****************************** */
+/* **************************** 商务咨询 end ****************************** */
 
